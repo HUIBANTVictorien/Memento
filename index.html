@@ -8,99 +8,99 @@
 <body>
   <h1>Petit memento</h1>
   <div id="Ligne">
-  <h2><img src="http://www.icone-png.com/ico/37/37447.ico" alt="icone ligne de commande" title"img ligne de commande">Ligne de commande
-    <img src="http://www.icone-png.com/ico/37/37447.ico" alt="icone ligne de commande" title"img ligne de commande"></h2><br/>
-    <p><strong>Pour créer un dossier :</strong></p>
-    <p>mkdir "nom du dossier"</p>
-    <p>mkdir "nom du dossier" "nom du dossier" "nom du dossier" (créer plusieurs dossiers dans la même racine)</p>
-    <p>mkdir -p (parents, créer le chemin)</p><br/>
-    <p><strong>Pour créer un fichier :</strong></p>
-    <p>touch "nom du fichier.extention"</p><br/>
-    <p><strong>Pour lancer une application :</strong></p>
-    <p>"nom de l'application" lance l'application nommée (firefox/atom/slack etc ...)</p>
-    <p>atom index.html (lance index.html dans atom (possibilité d'ouvrir plusieurs fichiers en même temps)il faut se trouver dans le dossier)</p>
-    <p>firefox "nom du fichier html" ouvre le fichier dans un nouvel onglet</p><br/>
-    <p><strong>Pour afficher une liste des dossiers des fichiers et les manuels :</strong></p>
-    <p>ls (affiche les dossiers et fichiers du dossier courant)</p>
-    <p>ls -a (affiche les dossiers/fichiers cachés)</p>
-    <p>ls -l (affiche les dossiers/fichiers en liste longue)</p>
-    <p>ls -al (affiche les dossiers/fichiers(même cachés) en liste longue)</p><br/>
-    <p><strong>Pour afficher le chemin du dossier :</strong></p>
-    <p>pwd</p><br/>
-    <p><strong>Pour naviguer dans les dossiers :</strong></p>
-    <p>cd "nom du dossier"</p>
-    <p>cd~ permet de revenir au dossier user(victorien)</p>
-    <p>cd .. permet de revenir au dossier précédent</p><br/>
-    <p><strong>Pour passer en mode super user :</strong></p>
-    <p>sudo -s</p><br/>
-    <p><strong>Pour gérer les paquets :</strong></p>
-    <p>apt update (met à jour les paquets)</p>
-    <p>apt upgrade (met à jour l'OS)</p><br/>
-    <p><strong>Poour rerchercher des fichiers :</strong></p>
-    <p>apt search "nom recherché"</p>
-    <p>apt search "nom recherché" | (pipe) grep "mot recherché"</p><br/>
-  </div>
-  <div id="GIT">
-    <h3><img src="https://icon-icons.com/icons2/512/PNG/128/vc-git_icon-icons.com_50729.png" alt="git icone" title = "git icone">GIT
-      <img src="https://icon-icons.com/icons2/512/PNG/128/vc-git_icon-icons.com_50729.png" alt="git icone" title = "git icone"></h3><br/>
-      <p><strong>Initialisation dans répertoire :</strong></p>
-      <p>git init</p><br/>
-      <p><strong>Ajouter fichier pour indexation :</strong></p>
-      <p>git add</p><br/>
-      <p><strong>Cloner un dépôt distant :</strong></p>
-      <p>git clone git:"URL" (espace "***"pour renommer)</p><br/>
-      <p><strong>Vérification d'état du dosser git :</strong></p>
-      <p>git status</p><br/>
-      <p><strong>Voir ce qui a été modifié après git status :</strong></p>
-      <p>git diff</p><br/>
-      <p><strong>Ignorer des fichiers :</strong></p>
-      <p>cat .gitignore .(type de fichier) ou ~ pour les fichiers temporaire</p><br/>
-      <p><strong>Validation des modifications pour préparer envoi sur dépôt (après un git add) :</strong></p>
-      <p>git commit -m "***"</p><br/>
-      <p><strong>Effacer fichier git :</strong></p>
-      <p>git rm ( -f pour forcer/!\)</p><br/>
-      <p><strong>Visualiser les validations :</strong></p>
-      <p>git log ( -p pour voir les différences entre les validations)</p><br/>
-      <p><strong>Mouvoir les fichiers :</strong></p>
-      <p>git mv</p><br/>
-      <p><strong>Statistiques des commits :</strong></p>
-      <p>git log --stat</p><br/>
-      <p><strong>Format différent de git log (voir <a href="https://git-scm.com/docs/pretty-formats" title"GitPretty">PrettyFormat</a>) :</strong></p>
-      <p>git log --pretty format=(voir lien au dessus)</p><br/>
-      <p><strong>Annulation du dernier commit :</strong></p>
-      <p>git commit --amend</p><br/>
-      <p><strong>Ajouter un dépôt distant :</strong></p>
-      <p>git remote add"URL"</p><br/>
-      <p><strong>Pousser du travail sur un serveur distant :</strong></p>
-      <p>git push origin master (en ayant enregistrer le remote)</p><br/>
-      <p><strong>Inspecter un dépôt distant</strong></p>
-      <p>git remote show "nomdistant"</p><br/>
-      <p><strong>Renommer branche/dépôt :</strong></p>
-      <p>git remote rename %target ("***")</p><br/>
-      <p><strong>Lister étiquettes(tag) :</strong></p>
-      <p>git tag</p>
-      <p>git tag -l "v1.4.*"(liste les tags v1.4.x)</p><br/>
-      <p><strong>Créer des tags annotés :</strong></p>
-      <p>git tag -a v1.4 -m 'Nom' ( -m spécifie le message du tag)</p><br/>
-      <p><strong>Créer des tags signés</strong></p>
-      <p>git tag -s</p><br/>
-      <p><strong>Vérifier un tag signé :</strong></p>
-      <p>git tag -v "nom tag"</p><br/>
-      <p><strong>Ajouter une branche :</strong></p>
-      <p>git branch "***"</p><br/>
-      <p><strong>Switcher de branche</strong></p>
-      <p>git checkout "nom branche souhaitée"</p><br/>
-      <p><strong>Fusionner branches :</strong></p>
-      <p>git merge</p><br/>
+    <h2><img src="http://www.icone-png.com/ico/37/37447.ico" alt="icone ligne de commande" title"img ligne de commande">Ligne de commande
+      <img src="http://www.icone-png.com/ico/37/37447.ico" alt="icone ligne de commande" title"img ligne de commande"></h2><br/>
+      <p><strong>Pour créer un dossier :</strong></p>
+      <p>mkdir "nom du dossier"</p>
+      <p>mkdir "nom du dossier" "nom du dossier" "nom du dossier" (créer plusieurs dossiers dans la même racine)</p>
+      <p>mkdir -p (parents, créer le chemin)</p><br/>
+      <p><strong>Pour créer un fichier :</strong></p>
+      <p>touch "nom du fichier.extention"</p><br/>
+      <p><strong>Pour lancer une application :</strong></p>
+      <p>"nom de l'application" lance l'application nommée (firefox/atom/slack etc ...)</p>
+      <p>atom index.html (lance index.html dans atom (possibilité d'ouvrir plusieurs fichiers en même temps)il faut se trouver dans le dossier)</p>
+      <p>firefox "nom du fichier html" ouvre le fichier dans un nouvel onglet</p><br/>
+      <p><strong>Pour afficher une liste des dossiers des fichiers et les manuels :</strong></p>
+      <p>ls (affiche les dossiers et fichiers du dossier courant)</p>
+      <p>ls -a (affiche les dossiers/fichiers cachés)</p>
+      <p>ls -l (affiche les dossiers/fichiers en liste longue)</p>
+      <p>ls -al (affiche les dossiers/fichiers(même cachés) en liste longue)</p><br/>
+      <p><strong>Pour afficher le chemin du dossier :</strong></p>
+      <p>pwd</p><br/>
+      <p><strong>Pour naviguer dans les dossiers :</strong></p>
+      <p>cd "nom du dossier"</p>
+      <p>cd~ permet de revenir au dossier user(victorien)</p>
+      <p>cd .. permet de revenir au dossier précédent</p><br/>
+      <p><strong>Pour passer en mode super user :</strong></p>
+      <p>sudo -s</p><br/>
+      <p><strong>Pour gérer les paquets :</strong></p>
+      <p>apt update (met à jour les paquets)</p>
+      <p>apt upgrade (met à jour l'OS)</p><br/>
+      <p><strong>Poour rerchercher des fichiers :</strong></p>
+      <p>apt search "nom recherché"</p>
+      <p>apt search "nom recherché" | (pipe) grep "mot recherché"</p><br/>
     </div>
-    <div id="HTML">
-      <h4><img src="https://image.flaticon.com/icons/png/128/524/524545.png" alt="icone HTML" title "HTML logo">HTML/CSS
-        <img src="https://image.flaticon.com/icons/png/128/136/136527.png" alt="icone CSS" title="CSS logo"></h4><br/>
-        <p>Ne pas oublier le DOCTYPE ("!DOCTYPE html")</p>
-        <p>Pour les images et les liens, bien définir les attribut alt="" et title=""</p>
-        <p>Pour voir le display/résolution et la changer (pour les images par exemple) ctrl+maj+m permet de choisir cette résolution</p>
-        <p>Pour les tableaux,(thead/tbody/tfoot) l'ordre parent n'est pas obligatoire</p>
-        <p>En CSS la taille la plus basse(en terme de ligne de code) prend le dessus sur les autres</p>*
+    <div id="GIT">
+      <h3><img src="https://icon-icons.com/icons2/512/PNG/128/vc-git_icon-icons.com_50729.png" alt="git icone" title = "git icone">GIT
+        <img src="https://icon-icons.com/icons2/512/PNG/128/vc-git_icon-icons.com_50729.png" alt="git icone" title = "git icone"></h3><br/>
+        <p><strong>Initialisation dans répertoire :</strong></p>
+        <p>git init</p><br/>
+        <p><strong>Ajouter fichier pour indexation :</strong></p>
+        <p>git add</p><br/>
+        <p><strong>Cloner un dépôt distant :</strong></p>
+        <p>git clone git:"URL" (espace "***"pour renommer)</p><br/>
+        <p><strong>Vérification d'état du dosser git :</strong></p>
+        <p>git status</p><br/>
+        <p><strong>Voir ce qui a été modifié après git status :</strong></p>
+        <p>git diff</p><br/>
+        <p><strong>Ignorer des fichiers :</strong></p>
+        <p>cat .gitignore .(type de fichier) ou ~ pour les fichiers temporaire</p><br/>
+        <p><strong>Validation des modifications pour préparer envoi sur dépôt (après un git add) :</strong></p>
+        <p>git commit -m "***"</p><br/>
+        <p><strong>Effacer fichier git :</strong></p>
+        <p>git rm ( -f pour forcer/!\)</p><br/>
+        <p><strong>Visualiser les validations :</strong></p>
+        <p>git log ( -p pour voir les différences entre les validations)</p><br/>
+        <p><strong>Mouvoir les fichiers :</strong></p>
+        <p>git mv</p><br/>
+        <p><strong>Statistiques des commits :</strong></p>
+        <p>git log --stat</p><br/>
+        <p><strong>Format différent de git log (voir <a href="https://git-scm.com/docs/pretty-formats" title"GitPretty">PrettyFormat</a>) :</strong></p>
+        <p>git log --pretty format=(voir lien au dessus)</p><br/>
+        <p><strong>Annulation du dernier commit :</strong></p>
+        <p>git commit --amend</p><br/>
+        <p><strong>Ajouter un dépôt distant :</strong></p>
+        <p>git remote add"URL"</p><br/>
+        <p><strong>Pousser du travail sur un serveur distant :</strong></p>
+        <p>git push origin master (en ayant enregistrer le remote)</p><br/>
+        <p><strong>Inspecter un dépôt distant</strong></p>
+        <p>git remote show "nomdistant"</p><br/>
+        <p><strong>Renommer branche/dépôt :</strong></p>
+        <p>git remote rename %target ("***")</p><br/>
+        <p><strong>Lister étiquettes(tag) :</strong></p>
+        <p>git tag</p>
+        <p>git tag -l "v1.4.*"(liste les tags v1.4.x)</p><br/>
+        <p><strong>Créer des tags annotés :</strong></p>
+        <p>git tag -a v1.4 -m 'Nom' ( -m spécifie le message du tag)</p><br/>
+        <p><strong>Créer des tags signés</strong></p>
+        <p>git tag -s</p><br/>
+        <p><strong>Vérifier un tag signé :</strong></p>
+        <p>git tag -v "nom tag"</p><br/>
+        <p><strong>Ajouter une branche :</strong></p>
+        <p>git branch "***"</p><br/>
+        <p><strong>Switcher de branche</strong></p>
+        <p>git checkout "nom branche souhaitée"</p><br/>
+        <p><strong>Fusionner branches :</strong></p>
+        <p>git merge</p><br/>
       </div>
+      <div id="HTML">
+        <h4><img src="https://image.flaticon.com/icons/png/128/524/524545.png" alt="icone HTML" title "HTML logo">HTML/CSS
+          <img src="https://image.flaticon.com/icons/png/128/136/136527.png" alt="icone CSS" title="CSS logo"></h4><br/>
+          <p>Ne pas oublier le DOCTYPE ("!DOCTYPE html")</p>
+          <p>Pour les images et les liens, bien définir les attribut alt="" et title=""</p>
+          <p>Pour voir le display/résolution et la changer (pour les images par exemple) ctrl+maj+m permet de choisir cette résolution</p>
+          <p>Pour les tableaux,(thead/tbody/tfoot) l'ordre parent n'est pas obligatoire</p>
+          <p>En CSS la taille la plus basse(en terme de ligne de code) prend le dessus sur les autres</p>*
+        </div>
       </body>
       </html>

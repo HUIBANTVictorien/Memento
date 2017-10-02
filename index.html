@@ -15,7 +15,7 @@
   <p><strong>Pour créer un fichier :</strong></p>
   <p>touch "nom du fichier.extention"</p><br/>
   <p><strong>Pour lancer une application :</strong></p>
-  <p>"nom de l'application" lance l'application nommée (firefox/atom/slack et...)</p>
+  <p>"nom de l'application" lance l'application nommée (firefox/atom/slack etc ...)</p>
   <p>atom index.html (lance index.html dans atom (possibilité d'ouvrir plusieurs fichiers en même temps)il faut se trouver dans le dossier)</p>
   <p>firefox "nom du fichier html" ouvre le fichier dans un nouvel onglet</p><br/>
   <p><strong>Pour afficher une liste des dossiers des fichiers et les manuels :</strong></p>
@@ -52,7 +52,7 @@
   <p>cat .gitignore .(type de fichier) ou ~ pour les fichiers temporaire</p><br/>
   <p><strong>Validation des modifications pour préparer envoi sur dépôt (après un git add) :</strong></p>
   <p>git commit -m "***"</p><br/>
-  <p><strong>affcer fichier git :</strong></p>
+  <p><strong>effacer fichier git :</strong></p>
   <p>git rm ( -f pour forcer/!\)</p><br/>
   <p><strong>Visualiser les validations :</strong></p>
   <p>git log ( -p pour voir les différences entre les validations)</p><br/>
@@ -70,5 +70,22 @@
   <p>git push origin master (en ayant enregistrer le remote)</p><br/>
   <p><strong>Inspecter un dépôt distant</strong></p>
   <p>git remote show "nomdistant"</p><br/>
-</body>
+  <p><strong>Renommer branche/dépôt :</strong></p>
+  <p>git remote rename %target ("***")</p><br/>
+  <p><strong>Lister étiquettes(tag) :</strong></p>
+  <p>git tag</p>
+  <p>git tag -l "v1.4.*"(liste les tags v1.4.x)</p><br/>
+  <p><strong>Créer des tags annotés :</strong></p>
+  <p>git tag -a v1.4 -m 'Nom' ( -m spécifie le message du tag)</p><br/>
+  <p><strong>réer des tags signés</strong></p>
+  <p>git tag -s</p><br/>
+  <p><strong>Vérifier un tag signé :</strong></p>
+  <p>git tag -v "nom tag"</p><br/>
+  <p><strong>Ajouter une branche :</strong></p>
+  <p>git branch "***"</p><br/>
+  <p><strong>Switcher de branche</strong></p>
+  <p>git checkout "nom branche souhaitée"</p><br/>
+  <p><strong>Fusionner branches :</strong></p>
+  <p>git merge</p><br/>
+  </body>
 </html>

@@ -9,7 +9,23 @@ h2, h3, h4, h5, h6 {
   font-size: 240%;
 }
 p {
-  font-size: 140%;
+  font-size: 120%;
+}
+#Ligne {
+  color: white;
+  border: solid 4px;
+  background-image: url(http://iwallpapers.free.fr/upload/2011/12/26/20111226192102-3399f4a9.jpg);
+  background-size: cover;
+}
+#GIT {
+  border: solid 4px;
 }
 #HTML {
+  border: solid 4px;
+}
+#Vhost {
+  border: solid 4px;
+}
+#PHP {
+  border: solid 4px;
 }

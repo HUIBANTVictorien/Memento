@@ -11,21 +11,41 @@ h2, h3, h4, h5, h6 {
 p {
   font-size: 120%;
 }
+#h1{
+  background-image: url(http://st.gde-fon.com/wallpapers_original/584253_tekstura_tsvet_oboi_tsarapinyi_fon_5184x3456_www.Gde-Fon.com.jpg);
+}
 #Ligne {
+  text-align: center;
   color: white;
   border: solid 4px;
   background-image: url(http://iwallpapers.free.fr/upload/2011/12/26/20111226192102-3399f4a9.jpg);
   background-size: cover;
 }
 #GIT {
+  text-align: center;
+  color: white;
   border: solid 4px;
+  background-image: url(http://hdlost.net/walls/textures-lava-other.jpg);
+  background-size: cover;
 }
 #HTML {
+  text-align: center;
+  color: white;
   border: solid 4px;
+  background-image: url(https://cdn.pixabay.com/photo/2015/10/15/21/31/texture-990096_1280.jpg);
+  background-size: cover;
 }
 #Vhost {
+  text-align: center;
+  color: white;
   border: solid 4px;
+  background-image: url(https://c.wallhere.com/photos/44/16/simple_background-118428.jpg!d);
+  background-size: cover;
 }
 #PHP {
+  text-align: center;
+  color: white;
   border: solid 4px;
+  background-image: url(http://s1.1zoom.me/big0/851/353909-admin.jpg);
+  background-size: cover;
 }

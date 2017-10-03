@@ -11,6 +11,10 @@ h2, h3, h4, h5, h6 {
 p {
   font-size: 140%;
 }
+.boldSur {
+  font-weight: bold;
+  text-decoration: underline;
+}
 #h1{
   background-image: url(http://st.gde-fon.com/wallpapers_original/584253_tekstura_tsvet_oboi_tsarapinyi_fon_5184x3456_www.Gde-Fon.com.jpg);
 }
